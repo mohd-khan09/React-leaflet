@@ -4,10 +4,12 @@ import dynamic from "next/dynamic";
 
 const Map = dynamic(() => import("@/app/components/Map"), { ssr: false });
 
-export default function Home() {
+const page = () => {
   return (
     <div className="bg-amber-100 mx-auto my-5 w-[98%] h-[480px]">
-      {/* <Map posix={[12.995218768575647, 77.5548894807005]} /> */}
+      <Map posix={[12.995218768575647, 77.5548894807005]} />
     </div>
   );
-}
+};
+
+export default page;

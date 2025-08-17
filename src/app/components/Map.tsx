@@ -21,9 +21,9 @@ const Map = (Map: MapProps) => {
 
   return (
     <MapContainer
+      attributionControl={false}
       center={posix}
       zoom={zoom}
-      scrollWheelZoom={false}
       style={{ height: "100%", width: "100%" }}
     >
       <TileLayer

@@ -1,10 +1,10 @@
 # React Leaflet Map Application
 
-A modern Next.js application showcasing interactive maps using React Leaflet with geocoding and search capabilities.
+A modern Next.js application showcasing interactive maps using React Leaflet with modern UI components.
 
 ## 🗺️ Project Overview
 
-This project demonstrates how to integrate React Leaflet into a Next.js application to create interactive, feature-rich maps. It includes geocoding, search functionality, and modern UI components.
+This project demonstrates how to integrate React Leaflet into a Next.js application to create interactive, feature-rich maps with modern UI components.
 
 ## 🚀 Technologies Used
 
@@ -18,7 +18,6 @@ This project demonstrates how to integrate React Leaflet into a Next.js applicat
 
 - **React Leaflet 5.0.0** - React components for Leaflet maps
 - **Leaflet 1.9.4** - Open-source JavaScript library for interactive maps
-- **Leaflet Geosearch 4.2.0** - Geocoding and search functionality
 - **Leaflet Default Icon Compatibility 0.1.2** - Fixes icon compatibility issues
 
 ### Styling & UI
@@ -83,7 +82,6 @@ react-leaflet/
 ## 🗺️ Features
 
 - **Interactive Maps** - Full-featured Leaflet maps with React components
-- **Geocoding** - Search and locate places on the map
 - **Modern UI** - Clean, responsive design with Tailwind CSS
 - **TypeScript** - Type-safe development experience
 - **Performance** - Optimized with Next.js and Turbopack
@@ -95,7 +93,6 @@ react-leaflet/
 The project includes proper Leaflet configuration with:
 
 - Default icon compatibility fixes
-- Geosearch integration
 - TypeScript support
 
 ### Next.js Configuration
@@ -110,10 +107,6 @@ The project includes proper Leaflet configuration with:
 ### React Leaflet
 
 Provides React components that wrap Leaflet functionality, making it easy to create interactive maps in React applications.
-
-### Leaflet Geosearch
-
-Adds geocoding capabilities, allowing users to search for locations and automatically place markers on the map.
 
 ### Leaflet Default Icon Compatibility
 
